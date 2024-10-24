@@ -14,6 +14,16 @@
         gap: 20px;
         justify-content: center;
        }
+       .banner-content {
+        text-align: center;
+       }
+       .banner-content button{
+          position: relative;
+          left: 130px;
+       }
+       nav ul li a  {
+        font-weight: 400;
+       }
         .banner-content h1{
         font-size: 25px;
        }
@@ -30,6 +40,9 @@
        }
        .popularCollectionCardContainer {
         grid-template-columns: repeat(1, 1fr);
+       }
+       .Featured{
+        display: block;
        }
   }
   
