@@ -35,9 +35,9 @@ nav ul li a {
 nav a {
   text-decoration: none;
 }
-section{
-    margin-top: 20px;
-    margin-bottom: 20px;
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .brandName {
   color: #3a3a3a;
@@ -100,11 +100,47 @@ section{
   align-items: center;
   gap: 40px;
   margin-top: 40px;
-  border: 1px solid slategray;
-  justify-self: center;
+ 
   justify-items: center;
   padding: 10px;
 }
 .sponsar img {
   width: 100%;
+}
+
+/* popularCollection */
+main {
+  margin-top: 40px;
+}
+ 
+.popularCollection h1 {
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 250% */
+}
+.popularCollectionCardContainer {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.popularCollectionCardContainer div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+   border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.popularCollectionCardContainer div img {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+.price{
+    font-weight: bold;
 }
